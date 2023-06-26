@@ -1,0 +1,23 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-musicuploader-staging-124538-authRole",
+      "UnauthRoleArn": "arn:aws:iam::198525679483:role/amplify-musicuploader-staging-124538-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::198525679483:role/amplify-musicuploader-staging-124538-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-musicuploader-staging-124538-deployment",
+      "UnauthRoleName": "amplify-musicuploader-staging-124538-unauthRole",
+      "StackName": "amplify-musicuploader-staging-124538",
+      "StackId": "arn:aws:cloudformation:eu-west-1:198525679483:stack/amplify-musicuploader-staging-124538/5a486660-141f-11ee-a405-0a376f80b25f",
+      "AmplifyAppId": "d2rml9pfxogd12"
+    },
+    "categories": {
+      "auth": {
+        "musicuploader": {}
+      },
+      "storage": {
+        "s3musicuploaderstoragea6d4ded3": {}
+      }
+    }
+  }
+}

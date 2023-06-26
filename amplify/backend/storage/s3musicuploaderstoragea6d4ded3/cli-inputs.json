@@ -1,0 +1,12 @@
+{
+  "resourceName": "s3musicuploaderstoragea6d4ded3",
+  "bucketName": "music-uploader-storage-a6d4ded3",
+  "policyUUID": "ff494c42",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ]
+}
