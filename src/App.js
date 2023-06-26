@@ -1,23 +1,27 @@
-// App.js
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import UploadComponent from './components/UploadComponent';
 import PlayerComponent from './components/PlayerComponent';
 import { withAuthenticator } from '@aws-amplify/ui-react';
-// import amplify ui css
-import "@aws-amplify/ui-react/styles.css";
+import './App.css'; // Import custom CSS file for styling
 
 function App() {
   return (
-    <Router>
-      <nav>
-        <Link to="/upload">Upload</Link> | <Link to="/player">Player</Link>
-      </nav>
+    <div className="app-container">
+      <Router>
+        <nav className="navbar">
+          <Link to="/upload" className="nav-link">Upload</Link>
+          <span className="nav-separator">|</span>
+          <Link to="/player" className="nav-link">Player</Link>
+        </nav>
 
-      <Routes>
-        <Route path="/upload" element={<UploadComponent />} />
-        <Route path="/player" element={<PlayerComponent />} />
-      </Routes>
-    </Router>
+        <div className="content">
+          <Routes>
+            <Route path="/upload" element={<UploadComponent />} />
+            <Route path="/player" element={<PlayerComponent />} />
+          </Routes>
+        </div>
+      </Router>
+    </div>
   );
 }
 
