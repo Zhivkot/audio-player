@@ -8,16 +8,16 @@ function App() {
   return (
     <div className="app-container">
       <Router>
-        <nav className="navbar">
+        {/* <nav className="navbar">
           <Link to="/upload" className="nav-link">Upload</Link>
           <span className="nav-separator">|</span>
           <Link to="/player" className="nav-link">Player</Link>
-        </nav>
+        </nav> */}
 
         <div className="content">
           <Routes>
             <Route path="/upload" element={<UploadComponent />} />
-            <Route path="/player" element={<PlayerComponent />} />
+            <Route path="/" element={<PlayerComponent />} />
           </Routes>
         </div>
       </Router>
