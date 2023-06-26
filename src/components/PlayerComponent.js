@@ -78,7 +78,7 @@ function PlayerComponent() {
 
   return (
     <div className="player-container">
-      <h1 className="player-title">Audio Player</h1>
+      <h1 className="player-title">Audiobooks</h1>
       <div className="playlist-container">
         {playlist.map((audio, index) => (
           <div

@@ -17,6 +17,12 @@
   color: #fff;
   text-decoration: none;
   margin-right: 1rem;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #ddd;
 }
 
 .nav-separator {
@@ -28,4 +34,43 @@
   background-color: #fff;
   padding: 1rem;
   margin-top: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
+.page-title {
+  font-size: 24px;
+  margin-bottom: 1rem;
+}
+
+.section-container {
+  margin-top: 1rem;
+}
+
+.section-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.section-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.section-item {
+  padding: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.section-item:hover {
+  background-color: #f0f0f0;
+}
+
+.section-item.active {
+  background-color: #eaeaea;
+}
+
